@@ -1,0 +1,37 @@
+p {
+  background-color: rgb(172, 171, 171);
+  border: 2px solid gray;
+}
+h2 {
+  background-color: grey;
+  color: aliceblue;
+  text-align: center;
+}
+p0 {
+  font-weight: bolder;
+}
+
+th,
+td,
+tr {
+  border: 1px gray solid;
+}
+ul {
+  background-color: gray;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+ul li a {
+  position: relative;
+  float: left;
+  margin: 0;
+  padding: 0;
+}
+ul li ul {
+  display: none;
+}
+
+ul li:hover {
+  display: block;
+}
