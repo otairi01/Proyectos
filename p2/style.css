@@ -1,0 +1,75 @@
+body {
+  background-color: grey;
+}
+
+#titulo {
+  background-color: black;
+  color: aliceblue;
+  text-align: center;
+  padding: 10px;
+}
+
+nav * {
+  padding: 0px;
+  margin: 0px;
+}
+nav ul {
+  margin: auto;
+  width: 350px;
+  list-style: none;
+}
+nav ul li a {
+  text-decoration: none;
+  background-color: gray;
+  color: black;
+  padding: 10px 15px;
+  display: block;
+  float: left;
+  border-style: solid;
+  border-color: black;
+  border-width: 1px;
+}
+nav ul li :hover {
+  background-color: black;
+  color: aliceblue;
+  transition: 0.5s;
+}
+div ul {
+  list-style: none;
+}
+div ul li {
+  float: left;
+  display: block;
+}
+div figure {
+  background-color: gray;
+  color: black;
+  text-align: center;
+  margin: 0;
+}
+.foto {
+  position: absolute;
+  visibility: visible;
+}
+.fondo {
+  visibility: hidden;
+}
+
+figcaption {
+  border-style: solid;
+  border-color: black;
+  border-width: 1px;
+}
+
+article {
+  margin: 10px;
+}
+article:hover figcaption {
+  background-color: black;
+  color: aliceblue;
+  transition: 0.5s;
+}
+article:hover .fondo {
+  visibility: visible;
+  position: relative;
+}
